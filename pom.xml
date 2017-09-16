@@ -9,7 +9,7 @@
   
   <dependency>
     <groupId>com.browserstack</groupId>
-    <artifactId>testing-browserstack</artifactId>
+    <artifactId>automate-testassist</artifactId>
     <version>0.7.2-SNAPSHOT</version>
   </dependency>
   <repositories>
@@ -31,9 +31,9 @@
         <artifactId>automate-maven-plugin</artifactId>
         <version>0.7.2-SNAPSHOT</version>
         <configuration>
-            <source>${jdk.source.version}</source>
-            <target>${jdk.target.version}</target>
-            <complianceLevel>${jdk.source.version}</complianceLevel>
+            <source>1.8.0_131</source>
+            <target>1.8.0_131</target>
+            <complianceLevel>1.8.0_131</complianceLevel>
         </configuration>
         <executions>
           <execution>
