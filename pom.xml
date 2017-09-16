@@ -5,23 +5,25 @@
   <artifactId>automate-testassist</artifactId>
   <version>0.7.2-SNAPSHOT</version>
   <name>testing-browserstack</name>
-  <dependency>
-    <groupId>com.browserstack</groupId>
-    <artifactId>automate-testassist</artifactId>
-    <version>0.7.2-SNAPSHOT</version>
-  </dependency>
+  <dependencies>
+     <dependency>
+        <groupId>com.browserstack</groupId>
+        <artifactId>automate-testassist</artifactId>
+        <version>0.7.2-SNAPSHOT</version>
+     </dependency>
+  </dependencies>
   <repositories>
-  <repository>
-    <id>sonatype-nexus-snapshots</id>
-    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-  </repository>
+     <repository>
+        <id>sonatype-nexus-snapshots</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+     </repository>
   </repositories>
   <pluginRepositories>
-  <pluginRepository>
-   <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-  </pluginRepository>
-  </pluginRepositories>
+     <pluginRepository>
+        <id>sonatype-nexus-snapshots</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+     </pluginRepository>
+   </pluginRepositories>
   <build>
     <plugins>
       <plugin>
@@ -42,5 +44,5 @@
         </executions>
       </plugin>
     </plugins>
-   </build>
+  </build>
 </project>
