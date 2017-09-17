@@ -1,8 +1,4 @@
 var browserstack = require('browserstack-local');
-var jasmineReporters = require('jasmine-reporters');
-    jasmine.getEnv().addReporter(
-        new jasmineReporters.JUnitXmlReporter('xmloutput', true, true)
-    );
 
 exports.config = {
   'specs': [ '../specs/local.js' ],
