@@ -18,7 +18,6 @@ exports.config = {
   onPrepare: function() {
     require('jasmine-reporters');
     jasmine.getEnv().addReporter(
-        new jasmine.JUnitXmlReporter('xmloutput', true, true)
     );
   },
   // Code to start browserstack local before start of test
