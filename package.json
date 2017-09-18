@@ -1,5 +1,5 @@
 {
-  "name": "hgsat123-browsertests",
+  "name": "protractor-browserstack",
   "version": "0.1.0",
   "readme": "Protractor Integration with [BrowserStack](https://www.browserstack.com)",
   "description": "Selenium examples for Protractor and BrowserStack Automate",
@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "browserstack-local": "^1.0.0",
-    "protractor": "^2.5.1"
+    "protractor": "^2.5.1",
+    "jasmine-reporters": "^1.0.0"
   },
   "license": "MIT"
 }
